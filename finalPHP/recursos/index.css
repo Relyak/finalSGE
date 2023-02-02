@@ -17,8 +17,7 @@ body{
     padding: 2%;
 }
 .marginMantenermeConectado{
-    margin-top: 5%;
-    margin-left: 25%;
+    margin-top: 1%;
     margin-bottom: 10%;
    
 }
@@ -34,4 +33,9 @@ img{
 }
 .masRadio{
     border-radius: 8px;
+}
+a{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
