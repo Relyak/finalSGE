@@ -1,27 +1,14 @@
-body{
-    width: 1920px;
-    height: 1080px;
-    margin: 0px auto;
-    background: url(imagenDeFondo.png) no-repeat center center fixed; 
-    background-size: cover;
-}
 .login{
     width:500px;
     height: 800px;
-    
     margin: 0px auto;
     margin-top: 100px;
     position: relative;
     border: solid rgba(128, 128, 128, 0) 3px;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: #cbf7d8;
     box-shadow: 10px 10px 50px 0px grey;
     padding: 2%;
-}
-.marginMantenermeConectado{
-    margin-top: 1%;
-    margin-bottom: 10%;
-   
 }
 img{
     width: 300px;
@@ -37,7 +24,5 @@ img{
     border-radius: 8px;
 }
 a{
-    display: block;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
 }

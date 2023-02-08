@@ -1,15 +1,7 @@
-body{
-    width: 1920px;
-    height: 1080px;
-    margin: 0px auto;
-    text-align: center;
-    background: url(imagenDeFondo.png) no-repeat center center fixed; 
-    background-size: cover;
-}
 h1{
     font-size: 150px;
     font-family:'Times New Roman', Times, serif;
-    font-weight: lighter;
+    text-align: center;
 }
 section{
     display: flex;
@@ -32,7 +24,4 @@ section img:hover{
 .imagenPrincipal{
     width: 20%;
     height: 30%;
-}
-.margenTablas{
-    margin-left: 34%;
 }
