@@ -1,0 +1,27 @@
+h1{
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+section{
+    display: flex;
+    height: 500px;
+    border:solid black 1px;
+    
+}
+section input{
+    width: 100px;
+    height: 500px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section input:hover{
+   cursor: pointer; 
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+}
