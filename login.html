@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,25 +15,25 @@
 </head>
 
 <body>
-
+    <form action="mirarLogin.php" method="post">
     <div class="login">
         <img src="recursos/camionLogo.png" alt="">
         <div class="form-floating mb-1">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control" name="correo" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Usuario</label>
         </div>
         <div class="form-floating ">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Contraseña</label>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
 
-            <a href="index.html" class="btn btn-success" type="button">Login</a>
+            <input  class="btn btn-success"  type="submit" value="Login"></input>
         </div>
         
 
     </div>
-
+    </form>
 </body>
 
 </html>
