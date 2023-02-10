@@ -1,0 +1,28 @@
+.login{
+    width:500px;
+    height: 800px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    border: solid rgba(128, 128, 128, 0) 3px;
+    border-radius: 20px;
+    background-color: #cbf7d8;
+    box-shadow: 10px 10px 50px 0px grey;
+    padding: 2%;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left:15%;
+
+    margin-bottom: 10%;
+    border-radius: 100%;
+   
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+.masRadio{
+    border-radius: 8px;
+}
+a{
+    margin-top: 5%;
+}
