@@ -1,0 +1,29 @@
+h1{
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+section{
+    display: flex;
+    width: 200px;
+    height: 300px;
+}
+section input{
+    display: flex;
+    width: 600px;
+    height: 700px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .3s ease;
+}
+section input:hover{
+   cursor: pointer; 
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.imagenPrincipal{
+    width: 20%;
+    height: 30%;
+}
