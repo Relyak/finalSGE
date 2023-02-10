@@ -19,13 +19,13 @@
             }*/
             var_dump($_POST);    
             $conn = null;
-            header("Location:index.html");
+            header("Location:index.php");
         }  else{
-            header("Location:login.html");
+            header("Location:login.php");
         }
             
     }else{
-        header("Location:login.html");
+        header("Location:login.php");
     
     }
 ?>
