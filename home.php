@@ -37,7 +37,7 @@ require('db.php');
 
     </div>
     <div class="margenesDiv">
-    <?php include('tablas/conductores/conductoresCrud.php'); ?>
+    <?php include('tablas/conductores/conductores.php'); ?>
 </div>
 </body>
 
