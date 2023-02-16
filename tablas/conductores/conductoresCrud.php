@@ -21,14 +21,11 @@ if (isset($_POST['juan'])) {
             . "<td>" . $row["telefono"] . "</td>"
             . "<td>" . $row["email"] . "</td>"
             . "<td>" . $row["nacionalidad"] . "</td>"
-<<<<<<< HEAD
             . "<td>" . "<a href='tablas/conductores/borrar.php'>borrar</a>" . "</td>"
             . "<td>" . "borrar" . "</td></tr>";
-=======
             . "<td>" . "<a href='tablas/conductores/crud/borrarConductor.php?id=".$row["id_conductor"]."'>Borrar</a>" . "</td>"
             . "<td>" . "<a href='deleteGolfer.php?id=".$row["id"]."'>Añadir</a>" . "</td></tr>"
             . "<td>" . "<a href='deleteGolfer.php?id=".$row["id"]."'>Modificar</a>" . "</td></tr>";
->>>>>>> 47f312b78353d73e41c7cd08e345ca5a6180e08b
         // . $row["apellidos"]. " - "; 
         //echo $row["dni"] ." - ".$row["matricula"]." - " .$row["telefono"]. " ";
         //echo $row["email"] ." - ".$row["nacionalidad"];
