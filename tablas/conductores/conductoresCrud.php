@@ -21,7 +21,7 @@ if (isset($_POST['juan'])) {
             . "<td>" . $row["telefono"] . "</td>"
             . "<td>" . $row["email"] . "</td>"
             . "<td>" . $row["nacionalidad"] . "</td>"
-            . "<td>" . "borrar" . "</td>"
+            . "<td>" . "<a href='tablas/conductores/borrar.php'>borrar</a>" . "</td>"
             . "<td>" . "borrar" . "</td></tr>";
         // . $row["apellidos"]. " - "; 
         //echo $row["dni"] ." - ".$row["matricula"]." - " .$row["telefono"]. " ";
