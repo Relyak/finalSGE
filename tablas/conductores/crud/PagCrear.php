@@ -17,6 +17,6 @@
         Nacionalidad<input type="text" size="100" name="nacionalidad" id="nacionalidad"><br>
         <input type="submit" value="Insertar">
     </form>
-    <a href="../conductoresCrud.php">Volver sin crear</a>
+    <a href="../../../home.php">Volver sin modificar</a>
 </body>
 </html>

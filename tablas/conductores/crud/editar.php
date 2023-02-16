@@ -1,6 +1,6 @@
 <?php
 // require('check_login.php');
-require('..\..\..\db.php');
+require('../../../db.php');
 
 var_dump($_POST);
 $sql = "UPDATE conductor SET nombre = :name, 
