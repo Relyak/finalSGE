@@ -1,16 +1,16 @@
 <?php
 
-require('../../../db.php');
+require('..\..\..\db.php');
 $id=$_GET["id"];
 var_dump($id);
 if (isset($id)) {
     if (window.confirm("eliminar?")) {
         // your code to execute when confirmed
         $sql = "DELETE FROM conductor 
-        WHERE id_conductor = :id";
+        WHERE id = :id";
     
         $stmt = $conn->prepare($sql);
-        $stmt->bindParam(':id_conductor', $id); 
+        $stmt->bindParam(':id', $id); 
     
         if($stmt->execute()==true)
         header("Location: ../../../home.php");
