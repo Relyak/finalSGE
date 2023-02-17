@@ -6,7 +6,7 @@ require('db.php');
 
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include('tablas/conductores/conductores.php'); ?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,10 +34,10 @@ require('db.php');
                     name="juan" value="">
             </form>
         </section>
-
+        
     </div>
     <div class="margenesDiv">
-    <?php include('tablas/conductores/conductores.php'); ?>
+    
 </div>
 </body>
 
