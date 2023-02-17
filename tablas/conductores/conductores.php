@@ -1,6 +1,4 @@
 <?php
-if (isset($_POST['juan'])) {
-
     //<img src="recursos/tablaDestino.jpg" alt="">
     //<img src="recursos/tablaSus.jpg" alt="">
     //<img src="recursos/tablaCamionero.png" alt="">
@@ -31,5 +29,4 @@ if (isset($_POST['juan'])) {
     echo '</table>';
     //$result->close();
     //mysqli_close($conn);
-}
 ?>
