@@ -24,10 +24,10 @@ require('db.php');
 
         <section class="margenTablas">
             <form method="post">
-                <input type="submit" style="background-image: url(recursos/tablaDestino.jpg)" alt="submit" id="juan"
-                    name="juan" value="">
-                <input type="submit" style="background-image: url(recursos/tablaSus.jpg)" alt="submit" id="juan"
-                    name="juan" value="">
+                <input type="submit" style="background-image: url(recursos/tablaDestino.jpg)" alt="submit" id="conductor"
+                    name="conductor" value="">
+                <input type="submit" style="background-image: url(recursos/tablaSus.jpg)" alt="submit" id="destino"
+                    name="destino" value="">
                 <input type="submit" style="background-image: url(recursos/tablaCamionero.png)" alt="submit" id="juan"
                     name="juan" value="">
                 <input type="submit" style="background-image: url(recursos/tablaAlmacen.png)" alt="submit" id="juan"
@@ -37,8 +37,16 @@ require('db.php');
         
     </div>
     <div class="margenesDiv">
+<<<<<<< HEAD
     
 </div>
+=======
+        <?php include('tablas/conductores/conductores.php');?>
+    </div>
+    <div class="margenesDiv">
+        <?php include('tablas/destino/destino.php'); ?>
+    </div>
+>>>>>>> 8c45e0a03146c22ddfcc419cce0e7d1d72218bd5
 </body>
 
 </html>
