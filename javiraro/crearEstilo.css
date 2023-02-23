@@ -1,0 +1,35 @@
+.contenedorPadre{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 1200px;
+            max-width: 90%;
+            height: 800px;
+            border: solid 3px black;
+}
+
+
+.contenedorAñadir{
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 50%;
+    border: solid 3px black;
+    display: block;
+    text-align: center;
+}
+
+.contenedorVolver{
+    margin: 0 auto;
+    width: 60%;
+    height: 10%;
+    border: solid 3px black;
+    display: block;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px
+}
