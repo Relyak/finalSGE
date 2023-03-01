@@ -32,7 +32,7 @@ require('db.php');
         </section>
     </div>
     <div class="margenesDiv">
-        <?php include('tablas/conductores/conductores.php');?>
+       <?php include('tablas/conductores/conductores.php');?>
     </div>
     <div class="margenesDiv">
        <?php include('tablas/destino/destino.php'); ?>
