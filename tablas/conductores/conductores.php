@@ -24,7 +24,7 @@ if (isset($_POST['conductor'])) {
     echo '<h3>Conductores</h3>';
     echo '<tr>
                 <td colspan="100"><input style="width:100%;" type="text" id="buscar" placeholder="Escriba para buscar"/></td>
-            </tr>';
+          </tr>';
 
     //Inserta en la tabla los datos extraídos de la base de datos
     foreach ($result as $row) {
@@ -44,7 +44,6 @@ if (isset($_POST['conductor'])) {
     }
 
     echo '</table>';
-
 
     //Utiliza el código Javascript para crear la barra filtradora
     echo '<script type="text/javascript" src="TablaBuscador/TablaBuscador.js"></script>';

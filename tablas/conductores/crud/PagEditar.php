@@ -1,5 +1,5 @@
 <?php
-require('../../../check_login.php');
+//require('../../../check_login.php');
 require('../../../db.php');
 $id=$_GET["id"];
 
